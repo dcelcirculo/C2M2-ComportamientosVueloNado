@@ -1,8 +1,8 @@
 public class Fish extends Animal {
     private String type;
 
-    public Fish(String nombre, Integer edad, String type) {
-        super(nombre, edad);
+    public Fish(String name, Integer age, String breed) {
+        super(name, age);
         this.type = type;
     }
 

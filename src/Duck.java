@@ -1,8 +1,8 @@
 public class Duck extends Animal {
     private String breed;
 
-    public Duck(String nombre, Integer edad, String breed) {
-        super(nombre, edad);
+    public Duck(String name, Integer age, String breed) {
+        super(name, age);
         this.breed = breed;
     }
 
@@ -14,6 +14,10 @@ public class Duck extends Animal {
     @Override
     public void swim() {
         System.out.println("Puedo nadar de 3 a 9 kilometros por hora.");
+    }
+
+    public String getBreed() {
+        return breed;
     }
 
 }
